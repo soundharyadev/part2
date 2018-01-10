@@ -16,13 +16,13 @@ class Prime
 	{
 		if(i%j==0)
 		{
-		System.out.println("is not prime number");
+		System.out.println("No");
 			ch=1;
 			break;
 		}
 		else
 		{
-			System.out.println("it is prime number");
+			System.out.println("Yes");
 			i++;
 			ch=0;
 			
