@@ -1,28 +1,23 @@
 import java.io.*;
-import java.util.Scanner;
 public class Prime
 {
 public static void main(String[]s)
 {
-int low=20,high=50;
-while(low < high)
+int l=1,h=20;
+while(l < h)
 {
-if(checkPrimeNumber(low))
-System.out.println(low+ " ");
-++low;
+    boolean f=false;
+    for(int i=2;i<=l/2;++i)
+    {
+        if(l%i==0)
+        {
+            f=true;
+            break;
+        }
+    }
+    if(!f)
+        System.out.println(l + " ");
+    ++l;
 }
-}
-public static boolean checkPrimeNumber(int num)
-{
-boolean flag=true;
-for(int i=2;i<=num/2;++i)
-{
-if(num % i == 0)
-{
-flag =false;
-break;
-]
-}
-return flag;
 }
 }
