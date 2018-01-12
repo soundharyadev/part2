@@ -15,12 +15,12 @@ public class Palindrome {
         }
         if(rev==n){
             
-            System.out.println(n+ "is a palindrome number!:");
+            System.out.println(n+ "yes");
         
         }
         else
         {
-            System.out.println(n+ "is not a palindrome number!");
+            System.out.println(n+ "no");
         }
    
         
