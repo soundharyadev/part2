@@ -3,7 +3,7 @@ public class Prime
 {
 public static void main(String[]s)
 {
-int l=1,h=20;
+int l=1,h=10;
 while(l < h)
 {
     boolean f=false;
