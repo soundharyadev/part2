@@ -19,12 +19,12 @@ while(num>0)
 }
 if(sum==i)
 {
-    System.out.println("is an Armstrong number:");
+    System.out.println("yes");
     
 }
 else
 {
-    System.out.println("is not an armstrong number:");
+    System.out.println("no");
 }
 }
 }
