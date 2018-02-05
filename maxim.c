@@ -21,6 +21,6 @@ int main()
 			
 		}
 	}
-	printf("The minimum element is: %d",max);
+	printf("The maximum element is: %d",max);
 	return 0;
 }
